@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Link {
+  int32 id = 1;
+  string url = 2;
+  repeated string tags = 3;
+}
+
+message Reccomendation {
+  repeated string inputTags = 1;
+  repeated Link outputLinks = 2;
+}
