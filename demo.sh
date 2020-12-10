@@ -1,3 +1,5 @@
+#!/bin/sh
+# 
 # UrlTagging Demo Requests
 # Willie Chew 
 # 2020
